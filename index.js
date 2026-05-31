@@ -9,5 +9,10 @@ const message = "The vault has been secured. The combination is:";
 console.log(message);
 const codeA = code1 + "-" + code2 + "-" + code3;
 const codeB = `${code1}-${code2}-${code3}`;
-console.log(codeA);
-console.log(codeB);
+console.log(message, codeA, codeB);
+
+// just to play around, has nothing to do with the workshop
+const codeC = code1 - code2 - code3;
+console.log(codeC);
+console.log(`${code1 - code2 - code3}`);
+console.log(code1 - code2 - code3);
